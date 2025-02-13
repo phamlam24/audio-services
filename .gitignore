@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Input-Output folders except testfr.mp3 and testfr.txt
+input/*
+output/*
+!input/input.mp3
+!output/output.txt
